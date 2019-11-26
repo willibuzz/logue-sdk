@@ -157,7 +157,12 @@ Oscillators can be built for Web Assembly using Emscripten and Jari Kleimola fro
 
 ### Before Building
 
-Make sure [Emscripten](../../tools/emscripten) is installed in the proper location.
+1. Make sure [Emscripten](../../tools/emscripten) is installed in the proper location.
+2. Activate Emscripten for the current environment:
+```
+$ cd tools/emscripten/emsdk
+$ ./emsdk activate 1.38.45
+```
 
 ### Building for Web Assembly
 
