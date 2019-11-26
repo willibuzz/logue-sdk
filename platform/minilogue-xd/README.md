@@ -163,7 +163,7 @@ Make sure [Emscripten](../../tools/emscripten) is installed in the proper locati
 
  1. move into an oscillator project directory.
  2. type `make wasm` to build the project. (if you have a custom installation of emscripten you can also directly run `emmake make -f WASM.mak`)
- 3. A `.js` file will be created in the project directory, this is the final product.
+ 3. A `.js` file will be created in the `build/` directory, this is the final product.
  
 ### Adding a Web Assembly Oscillator to the Web Audio Runtime
 
